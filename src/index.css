@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.active{
+  color: green;
+  font-weight: bolder;
+}
+.container{
+  @apply mx-auto;
+}
+.btn-green{
+  @apply py-3 px-4  border-2 border-green-300 bg-green-200
+}
+body{
+  background-color: antiquewhite;
+}
